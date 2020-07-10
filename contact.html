@@ -1,0 +1,99 @@
+<!--==================Index Page================-->
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+	<title>Welcome to TummyPuff corner</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This page shows the content of all html tags">
+	<meta name="author" content="Harpreet kaur">
+	<!-- below for private pages only, remove line for public pages-->
+	<meta name="robots" content="noindex, nofollow">
+	<!-- for responsive website-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!--website icon(favicon)-->
+	<link rel="icon" href="gallery/main-icon.jpg" type="image/jpeg">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--=================================header======================================================-->
+<header>
+	<div class="logo">
+		<img src="gallery/main-icon.jpg" alt="TummyPuff bakers" title="TummyPuff bakers" id="head-image">
+		TUMMYPUFF <sup>BreadBakery</sup></div><div class="contact">
+		<img src="gallery/phone.jpg" alt="phone number" title="call here"><a href="tel:514-678-9845">
+		Opening hours: 9:00am to 10:00pm<br>Address: 2789 Rue Thierry Lasalle <br> 
+		(514-678-9845)</a>
+	</div>
+</header>
+
+<!--====================================navigation bar=========================================================-->
+<div class="div1">
+	<nav class="topnav">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="product.html">PRODUCTS</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+			<li><a href="compare.html">COMPARE</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+	</nav>
+</div>
+<!--=====================================contact form========================================================-->
+  <form action="form_reply.html" method="get" class="contactform">
+	<h3>FOR QUERIES PLEASE FILL THE CONTACT FORM:</h3>
+		<input type="radio" name="sex" value="male" id="MALE" checked>
+			<label>MALE</label>
+			<input type="radio" name="sex" value="female" id="FEMALE">
+			<label>FEMALE</label>
+			<input type="radio" name="sex" value="other" id="OTHER">
+			<label>OTHER</label><br>
+				
+			<label>First Name</label>*
+			<input type="text" id="fname" name="firstname" placeholder="Your name.." maxlength="50" required>
+
+			<label>Last Name</label>*
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		
+			<label>Email</label>*
+			<input type="email" name="email" placeholder="Email" maxlength="128" required>
+		
+			<label>	Street Address</label>*
+			<textarea name="address" placeholder="Enter your address" cols="30" rows="3" maxlength="255" required></textarea>
+			
+			<label>Postal code</label>*
+			<input type="text" name="postal_code" placeholder="ex. A1B-2C3" maxlength="7" required pattern="^([A-Za-z]\d[A-Za-z][-]?\d[A-Za-z]\d)">
+			
+			<label>Country</label>*
+			<select id="country" name="country">
+				<option value="Australia">Australia</option>
+				<option value="canada">Canada</option>
+				<option value="usa">USA</option>
+				<option value="india">India</option>
+				<option value="newzealand">New Zealand</option>
+				<option value="other">Other</option>
+			</select>
+
+			<label>Comments</label>
+			<textarea id="comments" name="comments" placeholder="Write something.."></textarea>
+			
+			<input type="checkbox" name="spam_ok" value="1" checked>I agree to receive info about new products<br>
+
+			<input type="submit" value="Submit">
+	</form>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.5054290387784!2d-73.6347376844804!3d45.43947017910067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9112fbe501317%3A0x41a5ac1ed5395f1a!2s3100+Rue+Thierry%2C+LaSalle%2C+QC+H8N+1J1!5e0!3m2!1sen!2sca!4v1560036491197!5m2!1sen!2sca"  allowfullscreen>
+	</iframe><hr>
+	
+<!--===============================================footer part=====================================-->
+<footer class="main-footer">
+	<a href="https://twitter.com/login?"><img src="gallery/twitter.jpg" alt="click Here" title="click here to follow"></a>
+	<a href="https://facebook.com"><img src="gallery/facebook.jpg" alt="click Here" title="click here to follow"></a>
+	<a href="https://insta.com"><img src="gallery/insta.jpg" alt="click Here" title="click here to follow"></a>
+	<hr>
+	TummyPuff Bakery&copy;2019 Privacy Policy. Term of use
+</footer>
+
+</body>
+</html>
